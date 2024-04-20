@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "KeyKeeper Password Manager",
+  "version": "0.0.0.1",
+  "description": "Manage your passwords with ease!",
+  "permissions": ["activeTab", "storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "128": "images/icon128.png"
+  },
+  "action": {
+    "default_title": "KeyKeeper Manager",
+    "default_popup": "index.html"
+  }
+}

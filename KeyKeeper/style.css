@@ -1,0 +1,42 @@
+html {
+  background-image: url('/images/gato.jpg') !important;
+  background-position: center;
+  background-color: black;
+  height: 512px;
+  width: 256px;
+  border-radius: 25px;
+  background-size: cover;
+  user-select: none;
+  color: #ff19cc;
+  font-weight: bold;
+  font-family: arial;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  padding-top: 20px; /* Add padding to the top */
+}
+
+a {
+  background-color: #00000070;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 15px;
+  font-size: 6vw;
+  text-align: center;
+  width: 100%;
+  color: pink; /* Text color */
+  text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+  background-color: #00550070;
+}
+
+div{
+	background-color:#00000080;
+	color:#C59FAA;
+	border-radius:10px;
+	margin:10px;
+	padding:10px;
+	font-size:5vw;
+}
